@@ -28,85 +28,37 @@ page_config = {
                 "title":'密码'
             }]
         },
-        {
-            "name":'caninet',
-            "title":'机柜',
-            "data":[{
-                "name":"name",
-                "title":'机柜名'
-            }]
-        },
-        {
-            "name":"host",
-            "title":"服务器",
-            "data":[{
-                "name":"caninet",
-                "title":'机柜',
-                "type":'select',
-                "select_type":'caninet'
-            },{
-                "name":"hostname",
-                "title":'主机名'
-            },{
-                'name':'asset_no',
-                'title':'资产号'
-            },{
-                "name":'end_time',
-                "title":"过期日期",
-                "type":'date'
-            },{
-                "name":'ups',
-                "title":'是否开启',
-                "type":'select',
-                "value":{0:'开启',1:'关闭'}
-            }]
-        }
-    ]
-}
+
+	{
+         "name": 'host',
+         "title": '服务器',
+         "data": [{
+             "name": 'jifang',
+             "title": '机房'
+         },{
+              "name": 'jigui',
+             "title": '机柜'
+         },{
+              "name": 'SN',
+             "title": 'SN'
+         },{
+              "name": 'wanip',
+             "title": '公网IP'
+         },{
+              "name": 'lanip',
+             "title": '内网IP'
+         },{
+              "name": 'iloip',
+             "title": '管理IP'
+         },{
+              "name": 'prog',
+             "title": '项目'
+         },{
+              "name": 'app',
+             "title": '应用'
+             }]
+         }
 
 
-
-
-
-# ,{
-#         "name": 'host',
-#         "title": '服务器',
-#         "data": [{
-#             "name": 'cabinet',
-#             "title": '机柜'
-#         },{
-#             "name":'hostname',
-#             "title":'主机名'
-#         }]
-#     },{
-#         "title": '业务',
-#         "sub":[
-#             {
-#                 'name': 'product',
-#                 'title': '业务线',
-#                 'data': [{
-#                     'name': 'service_name',
-#                     'title': '服务名'
-#                 },{
-#                     'name':'module_letter',
-#                     'title':'模块简称'
-#                 },{
-#                     'name':'dev_interface',
-#                     'title':'开发者'
-#                 },{
-#                     'name':'op_interface',
-#                     'title':'运维接口人'
-#                 }]
-#             },
-#             {
-#                 'name': 'raidtype',
-#                 'title': 'Raid厂商',
-#                 'data': [{
-#                     'name': 'name',
-#                     'title': 'Raid厂商'
-#                 }]
-#             }
-
-
-#         ]
-#     }
+   ]
+     }
