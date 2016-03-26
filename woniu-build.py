@@ -68,5 +68,5 @@ if __name__ == '__main__':
     print config
     if len(sys.argv)>1 and sys.argv[1]=='init':
         init_database(config)
-        db.execute('insert into user (username,password) values ("51reboot","51reboot")')
+        db.execute('insert into user (username,password) values ("root","root")')
     gen_config(config)
