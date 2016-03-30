@@ -112,4 +112,4 @@ page_config = {
 
 ### 依赖
 
-本项目python依赖flask和mysqldb模块，直接pip安装一下即可
+本项目python依赖flask和Flask-MySQLdb模块，直接pip安装一下即可
